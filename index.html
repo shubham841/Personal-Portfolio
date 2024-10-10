@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--  font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="Style/styles.css" />
+    <title>Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="assets/user-tie-solid.svg">
+    <script src="Js/main.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Skills</a>
+        <a href="#portfolio">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hi, Myself</h3>
+        <h1>Shubham Bisht</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>
+          I'm a front-end developer passionate about transforming designs into
+          exceptional user experiences.
+        </p>
+        <p>
+          My portfolio showcases my creativity and technical skills in building
+          innovative and interactive websites.
+        </p>
+        <div class="social-media">
+          <!-- <a href="#"><i class="fa-brands  fa-facebook"></i></a> -->
+          <a href="https://github.com/shubham841" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/shubham-bisht-b5495b256/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+        </div>
+        <a href="https://drive.google.com/file/d/1I2cKbeQ-CpyaRJJCaY0U-3JzMbUvBDZw/view?usp=drive_link" class="btn" target="_blank">Download CV</a>
+      </div>
+      <div class="class home-img">
+        <img src="assets/logo-Photoroom.png" />
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img
+          class="self-img"
+          id="aboutImg"
+          src="assets/logo2-Photoroom.png"
+          alt=""
+        />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>FrontEnd Developer</h3>
+        <p>
+          I'm a frontend developer with a passion for crafting intuitive and
+          visually appealing user interfaces. 
+        </p>
+        <p>I specialize in building
+            responsive, accessible websites using React, and Tailwind
+            CSS.</p>
+        <p>  My goal is to create seamless digital experiences that delight
+            users and achieve business objectives.</p>
+        <a href="#services" class="btn">Explore my work below!</a>
+      </div>
+    </section>
+
+    <!-- Skills -->
+
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Skills</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+            <i class="fa-brands fa-html5"></i>
+          <h3>Html</h3>
+          <p>
+            Proficient in HTML, utilizing it to build the structural foundation of websites and web applications.
+          </p>
+          <a href="https://github.com/shubham841/R-C" class="btn" target="_blank">Source Code</a>
+        </div>
+        
+        <div class="services-box">
+            <i class="fa-brands fa-css3-alt"></i>
+          <h3>CSS</h3>
+          <p>
+            Proficient in CSS, styling websites to create visually appealing and user-friendly interfaces.
+          </p>
+          <a href="https://github.com/shubham841/AI-SUMMARIZER" class="btn" target="_blank">Source Code</a>
+        </div>
+        <div class="services-box">
+            <i class="fa-brands fa-js"></i>
+          <h3>JavaScript</h3>
+          <p>
+            Build dynamic and interactive websites and web applications using JavaScript, enhancing user experience through engaging features.
+          </p>
+          <a href="https://github.com/shubham841/Weather-App" class="btn" target="_blank">Source Code</a>
+        </div>
+        <div class="services-box">
+            <i class="fa-brands fa-react"></i>
+          <h3>React Js</h3>
+          <p>
+            Passionate about building scalable and maintainable React applications
+          </p>
+          <a  href="https://github.com/shubham841/NEWS-VOICE-APP" class="btn" target="_blank">Source Code</a>
+        </div>
+        <div class="services-box">
+            <i class="fa-brands fa-node"></i>
+          <h3>Node Js</h3>
+          <p>
+            Leverage Node.js to build efficient and scalable server-side solutions for complex web applications. 
+          </p>
+          <a href="https://github.com/shubham841/3D-Portfolio" class="btn" target="_blank">Source Code</a>
+        </div>
+        <div class="services-box">
+            <i class="fa-brands fa-figma"></i>
+          <h3>Figma</h3>
+          <p>
+            Designed and maintained a comprehensive design system in Figma, improving design consistency and efficiency.
+          </p>
+          <a href="https://github.com/shubham841/Figma-To-Code" class="btn" target="_blank">Source Code</a>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- portfolio section -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="assets/1.jpg" />
+          <div class="portfolio-layer">
+            <h4>OpenAi-Summarizer-Articles</h4>
+            <!-- <p>Summarize Any Articles</p> -->
+            <a
+              href="https://openai-summarizer-articles.netlify.app/"
+              target="_blank"
+              ><i class="fa-solid fa-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="assets/2.jpg" />
+          <div class="portfolio-layer">
+            <h4>3d Portfolio</h4>
+            <!-- <p>Lorem ipsum dolor sit amet.</p> -->
+            <a href="https://newportfolio-project.netlify.app/" target="_blank"
+              ><i class="fa-solid fa-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="assets/3.jpg" />
+          <div class="portfolio-layer">
+            <h4>AI News Voice App</h4>
+            <!-- <p>Lorem ipsum dolor sit amet.</p> -->
+            <a href="https://ai-news-voiceapp.netlify.app/" target="_blank"
+              ><i class="fa-solid fa-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="assets/4.jpg" />
+          <div class="portfolio-layer">
+            <h4>Weather Forecast</h4>
+            <!-- <p>Lorem ipsum dolor sit amet.</p> -->
+            <a href="https://forecast-24-app.netlify.app/" target="_blank"
+              ><i class="fa-solid fa-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact<span>Me</span></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2024 by $hubhamBisht | All Rights Reserved</p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#"><i class="fa-solid fa-angle-up"></i></a>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </body>
+</html>
